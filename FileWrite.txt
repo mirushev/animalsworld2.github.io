@@ -1,0 +1,2 @@
+The number of participants in our events is:
+60

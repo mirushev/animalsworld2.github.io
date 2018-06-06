@@ -1,0 +1,186 @@
+body{
+    font-family: Verdana, Arial, sans-serif;
+     background: url(test.jpg);
+     background-attachment: fixed;
+     background-repeat:repeat;
+     background-position:100%;
+	 }
+	 	 
+* {
+	padding: 0;
+	margin: 0;	
+  }
+
+header{
+    width: 100%;
+    height:253px;
+    background:#06a4ac; 
+	background: url(background.png);    
+}
+    
+}
+header nav{
+    display: inline;
+    position: relative;
+    float: left;
+    margin: 0.7em 5em 0 0;
+}
+
+header ul{
+    list-style-type: none;
+    margin:0em 0 ;
+    padding:12em 0 0 0.2em;
+}
+header li{
+   display: inline;
+    padding: 0.5em 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+	border: solid 1px #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);
+	
+}
+header li a{
+    color: black;
+    text-decoration:none;
+	margin: 0.5em 0.5em;
+	
+}
+header li a:hover{
+   color:#99ff99;
+}
+header form{
+    padding-top:0em;
+    margin-bottom: 70em;
+}
+
+/*Artikujt*/
+.Mammals img{
+    width:400px;
+    height: 200px;
+    margin: 2em;
+    float:left;
+	border: solid 1px black;
+	border-radius: 15px;
+
+}
+
+.Mammals{ 
+    float:left;
+    width: 800px;
+    margin-top: 5em;
+    margin-bottom: 4em;
+	margin-right: 6em;
+    font-size: 16px;
+    background-color:rgba(223, 191, 159, 0.7);
+    overflow: auto;
+	margin: 3em;
+	border-radius: 15px;
+	}
+	
+.Mammals h3{
+    margin-left: 2em;
+    font-size: 2em;
+    margin-bottom: 0.35em;
+	margin-top: 1em;
+	
+	
+}
+.Mammals p{
+    margin-top: 0.35em;
+	margin-right: 6em;
+	margin-bottom: 4em;
+	
+	font-size: 15px;
+	
+}
+
+/*Video*/
+.vid1{
+	float:left;
+    width: 420px;
+	padding-left:2em;
+	
+    margin-top: 5em;
+    margin-bottom: 4em;
+	margin-right: 6em;
+    font-size: 16px;
+    background-color:rgba(255,255,192, 0.7);
+    overflow: auto;
+	margin: 3em;
+	border-radius: 15px;
+}
+
+/*Perdorimi i disa tagjeve*/
+cite { 
+    font-style: italic;
+}
+
+#desclist h4{
+	font-family:"Lucida Console", Monaco, monospace;
+	font:bold;
+	font-size:25px;
+    text-align: center;
+    text-transform: uppercase;
+    padding:1em 0em 1em;
+	padding-top:0.5em;;
+	
+}
+
+#desclist dl{
+	position: absolute;
+    left: 925px;
+    top: 300px;
+	color:black;
+	padding:0.5em;
+    background-color:rgba(238, 255, 204, 0.8);
+	width: 300px;
+	border-radius:15px;
+    
+}
+#desclist dt a:link{
+    
+    color: green; 
+	text-decoration:underline;
+}
+#desclist dt a:visited{
+    color: black;
+}
+#desclist dt a:hover{
+    font-size: 15px;
+}
+
+/*Callback butoni*/
+
+#desclist button {
+                width: 70px;
+                height: 30px;
+                background:#ffd9b3;
+                border-radius: 5px;
+                font-family: Montserrat;
+                border: 1px solid black;
+                color: #334d00;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 14px;
+                cursor: pointer;
+                position:absolute;
+				top:1180px;
+				right:150px;
+            }
+			
+/*Vektori*/			
+#eggmammals
+	{
+  width: 400px;
+  height:110px;
+  font-size:1.05em;
+  background: rgba(255, 255, 179, 0.7);
+  position:absolute;
+  margin-top:105em;
+  margin-left:46em;
+  padding-top:2em;
+  padding-left:2em;
+  padding-bottom:0.2em;
+  border:solid 1px #dfff80;
+}

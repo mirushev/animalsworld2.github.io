@@ -1,0 +1,385 @@
+body{
+    font-family: Verdana, Arial, sans-serif;
+     background: url(test.jpg);
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-position:100%;
+    }
+	
+header { background-image:url("background.png");
+		 background-repeat:no-repeat;
+		 width: 100%;
+         height:130px;
+	     padding-bottom:8em;}	
+	
+* {
+   padding: 0;
+   margin: 0;	
+  }
+
+}
+header nav{
+    display: inline;
+    position: relative;
+    float: left;
+    margin: 0.7em 5em 3em 3em;
+}
+h2 {
+	padding-top:0.5em;
+	padding-left:2em;
+    color: black;
+    text-align: left;
+}
+header ul{
+    list-style-type: none;
+    margin:0em 0 ;
+    padding:12em 0 0 0.2em;
+}
+header li{
+    display: inline;
+    padding: 0.5em 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+	border: solid 1px #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);	
+}
+
+header li a{
+    color: black;
+    text-decoration:none;
+	margin: 0.5em 0.5em;
+	
+}
+header li a:hover{
+    color:#99ff99;
+}
+header form{
+    padding-top:0em;
+    margin-bottom: 70em;
+}
+
+/*Artikujt*/
+.text img{
+    width:400px;
+    height: 200px;
+    margin: 2em;
+    float:left;
+	border: solid 1px black;
+	border-radius: 15px;
+}
+
+.text{ 
+    float:left;
+    width: 800px;
+    margin-top: 5em;
+    margin-bottom: 4em;
+	margin-right: 6em;
+    font-size: 16px;
+	background-color:rgba(255, 255, 204, 0.8);
+    overflow: auto;
+	margin: 3em;
+	}
+	
+.text h3{
+    margin-left: 2em;
+    font-size: 2em;
+    margin-bottom: 0.35em;
+	margin-top: 1em;
+	}
+	
+	
+.text p{
+    margin-top: 0.35em;
+	margin-right: 6em;
+	margin-bottom: 4em;
+	
+	font-size: 15px;
+	}
+	
+.animals{
+    color: #8a7f67;
+    font-size: 20px;
+	}
+	
+/*Thenia*/
+.red {
+	color: red;
+	font-weight: bold;
+	
+}
+
+.blue {
+    color: blue;
+    font-weight: bold;
+}
+.proverb{ 
+    float:left;
+    width: 810px;
+	height:70px;
+    font-size: 18px;
+	background-color:rgba(173, 235, 173, 0.7);
+	margin: 2.5em;
+	}
+}
+
+/*Other interesting animals*/
+
+section{
+    padding-left:0.8em;
+    padding-right:1em;
+}
+
+#otheranimals{
+    float:left;
+	padding:2em ;
+	background-color:rgba(182, 193, 155, 0.8);
+	margin-left: 3em;
+	color: white;
+	text-align: center;
+	margin-top: 0.5em;
+}
+
+
+#otheranimals table tr td{
+    padding:0em 0em 0em 4.5em;
+}
+
+
+#otheranimals table th{
+    font-size: 3px;    
+	color: white;
+}
+
+
+/*Aside*/	
+aside{
+        position: absolute;
+        right:0;
+        top: 15em;
+        width: 18em;
+        margin-top: 4em;
+        margin-left: 0.5em;   
+    }
+	
+
+aside h2{
+    color:black;
+    position:absolute;
+	margin-top:13.5em;
+	}
+	
+/*Ora*/	
+#all {
+  width: 251px;
+  height:75px;
+  font-size: 1em;
+  font-weight:bold;
+  background: rgba(140, 217, 140, 0.7);
+  position:relative;
+  margin-top:3em;
+  margin-bottom:1.5em;
+  padding-top:2em;
+  padding-bottom:0.2em;
+  text-align: center;
+  border:solid 1px #669999;
+}
+
+
+/*Fade me jQuery*/
+#picOne, #picTwo {
+position:absolute;
+display:none;
+margin-top:1.5em;
+}
+
+
+/*Polls*/	
+#Sondazhi{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 250px;
+    border: solid 2px black;
+    padding-bottom:3em;
+	padding-top: 1em;
+	text-align: left;
+	color: white;
+	position:absolute;
+	margin-top:23em;
+	}
+	
+.poll h4{
+    font-size: 1em;
+    padding-bottom: 1em;
+	margin: 0;
+	}
+	
+.poll form{
+    background-color:rgba(255, 255, 255, 0.5); 
+    padding: 0.7em 0 0.7em 0.7em;
+	color: black;
+	}
+
+/*Local Storage*/
+#localdata {
+  width: 251px;
+  height:105px;
+  background: rgba(163, 163, 117, 0.7);
+  position:absolute;
+  margin-top:72em;
+  border:solid 1px #5c5c3d;
+}
+	
+/*Listat*/
+#listat{
+   position:absolute;
+   margin-top:107em;
+      }
+
+
+#listat ul{
+  width: 240px;
+  font-size: 0.9em;
+  font-weight:bold;
+  background: rgba(173, 173, 133, 0.7);
+  border-top: solid 3px white;
+  border-bottom: solid 3px white;
+  padding-bottom:1.1em;
+  padding-left:3em;
+}
+
+
+#listat ol{
+    padding-left:1.3em;
+}
+
+
+h4 {
+	color: white;
+}
+
+/*Math*/
+#math {
+width: 251px;
+height:200px;
+font-family:Helvetica;
+text-align:center;
+background: rgba(255, 51, 0, 0.7);
+border:solid 1px #cccc;
+position:absolute;
+margin-top:132em;
+margin-left:1em;
+}
+
+/*Drag and drop*/
+#div1, #div2 {
+    float: left;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #f5f5f0;
+	margin-top:150em;
+}
+
+
+/*Slider*/
+.slider {
+    box-shadow: 0 5px 5px grey;
+    width: 100%;
+	height:100px;
+	position:absolute;
+	margin-top:87em;
+}
+
+.slide {
+    position: relative;
+    color: white;
+}
+
+.slide-img {
+    width: 100%;
+}
+
+
+
+.prev {
+    position: absolute ;
+    bottom: 50%;
+}
+
+.next {
+    position: absolute ;
+    bottom: 50%;
+    right: 0;
+}
+
+
+
+/*Follow Us or Share*/
+#followus{
+    width:100%;
+	height:77px;
+    background-color:rgba(182, 193, 155, 0.7);
+	padding-bottom:1.3em;
+	position:absolute;
+	margin-top:160em;
+}
+
+#followus h3{
+    float:left;
+    color: white;
+    font-weight:bold;
+    padding-top:2em;
+	padding-left:3em;
+	padding-right:3em;
+	padding-bottom:2em;
+    text-transform: uppercase;	
+}
+
+#followus section ul{
+    margin-top:0em;
+}
+
+#followus section ul li{
+    float: left;
+    display:inline;
+    padding:0.8em;
+}
+
+#followus section ul li img{
+    width: 31px;
+    height: 31px;
+}
+
+
+/*Transformation*/
+#box {
+  background: #2db34a;
+  line-height: 150px;
+  text-align: center;
+  border-radius: 10px;
+  width: 270px;
+  height:140px;
+  position: absolute;
+  margin-top:173em;
+  left:3px;
+  
+}
+.spin {
+  cursor: pointer;
+  transform-style: preserve-3d;
+  
+}
+.spin:hover {
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+ 100% {
+    transform: rotateY(360deg);
+  }
+  }
+
+h5 {
+	  color: #fff;
+}
+

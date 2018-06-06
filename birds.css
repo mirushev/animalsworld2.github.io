@@ -1,0 +1,242 @@
+body{
+    font-family: Verdana, Arial, sans-serif;
+     background: url(test.jpg);
+     background-attachment: fixed;
+     background-repeat:repeat;
+     background-position:100%;
+	 }
+	 
+* {
+	padding: 0;
+	margin: 0;	
+}
+
+header{
+    width: 100%;
+    height:253px;
+    background:#06a4ac; 
+	background: url(background.png);    
+}
+    
+}
+header nav{
+    display: inline;
+    position: relative;
+    float: left;
+    margin: 0.7em 5em 0 0;
+}
+h2 {
+	
+    color: black;
+    text-align: left;
+}
+header ul{
+    list-style-type: none;
+    margin:0em 0 ;
+    padding:12em 0 0 0.2em;
+}
+header li{
+   display: inline;
+    padding: 0.5em 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+	border: solid 1px #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);
+	
+}
+header li a{
+    color: black;
+    text-decoration:none;
+	margin: 0.5em 0.5em;
+	
+}
+header li a:hover{
+    color:#99ff99;
+}
+header form{
+    padding-top:0em;
+    margin-bottom: 70em;
+}
+
+/*Animacioni*/
+.animacion2 {
+	
+	position: absolute;
+    top: 20em;
+	left: 60em;
+	right: 0em;
+    width: 100px;
+    height: 50px;
+	  animation-name: stretch;
+	  animation-duration: 1.5s; 
+	  animation-timing-function: ease-out; 
+	  animation-delay: 0;
+	  animation-direction: alternate;
+	  animation-iteration-count: infinite;
+	  animation-fill-mode: none;
+	  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    border-radius: 100%;
+  }
+  50% {
+    
+  }
+  100% {
+    transform: scale(1.5);
+  
+  }
+}
+
+/*Artikujt*/
+.Birds img{
+    width:400px;
+    height: 200px;
+    margin: 2em;
+    float:left;
+	border: solid 1px black;
+	border-radius: 15px;
+}
+
+.Birds{ 
+    float:left;
+    width: 800px;
+    margin-top: 5em;
+    margin-bottom: 4em;
+	margin-right: 6em;
+    font-size: 16px;
+    background-color:rgba(255, 224, 179, 0.7);
+    overflow: auto;
+	margin: 3em;
+	border-radius: 15px;
+	}
+	
+.Birds h3{
+    margin-left: 2em;
+    font-size: 2em;
+    margin-bottom: 0.35em;
+	margin-top: 1em;
+	
+	
+}
+.Birds p{
+    margin-top: 0.35em;
+	margin-right: 6em;
+	margin-bottom: 4em;
+	
+	font-size: 15px;
+	
+}
+
+/*Audio*/
+
+.audio1{
+	float:left;
+    width: 500px;
+    margin-top: 5em;
+    margin-bottom: 4em;
+	margin-right: 6em;
+	padding-left:10em;
+    font-size: 16px;
+    background-color:rgba(255,255,192, 0.7);
+    overflow: auto;
+	margin: 3em;
+	border-radius: 15px;
+}
+
+aside{
+        position: absolute;
+        right:0;
+        top: 15em;
+        width: 18em;
+        margin-top: 4em;
+        margin-left: 0.5em;   
+    }
+	
+/*Listat*/	 
+
+#listat{
+    margin:0.3em;
+	float:right;
+	padding-top:0;
+      }
+
+
+#listat h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+    padding:0.5em;
+    color:white;
+}
+
+
+#listat ul{
+  width: 246px;
+  font-size: 0.9em;
+  background: rgba(255,255,192, 0.7);
+  border-top: solid 3px #c78b00;
+  border-bottom:solid 3px #c78b00;
+  padding:1em;
+  border-radius:15px;
+}
+
+.list{
+	font-size:1.2em;
+	font:bold;
+}
+#listat ol{
+    padding-left:1.3em;
+}
+
+/*Replace*/
+
+#demo1{
+	background-color:rgba(0, 153, 51, 0.7);
+    overflow: auto;
+	border-radius: 15px;
+	padding:1em;
+    font-family:Book Antiqua;
+	width:400px;
+	 position: absolute;
+     right:0;
+     top: 30em;
+     width: 18em;
+     margin-top: 4em;
+     margin-left: 0.5em; 
+}
+#demo{
+	background:rgba(255, 179, 102, 0.7);
+	
+}
+
+#btn3
+{
+	background:rgba(255,255,192, 0.7);
+	width:40px;
+	
+}
+
+/*toString() JavaScript*/
+
+#nrspecieve
+{
+	background-color:rgba(204, 204, 0, 0.7);
+    overflow: auto;
+	border-radius: 15px;
+	padding:1em;
+	width:400px;
+	 position: absolute;
+     right:0;
+     top: 50em;
+     width: 18em;
+     margin-top: 4em;
+     margin-left: 0.5em; }
+	 
+	 
+	 
+
+
